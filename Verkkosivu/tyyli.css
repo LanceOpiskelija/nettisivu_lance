@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Yläpalkin asettelu ja taustavri */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #868794;
+}
+
+/* painikkeiden sijainnit */
+li {
+    float: left;
+}
+
+/*li=list item, painikkeiden tekstien v채rit*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* painikkeiden mouse over color*/
+li a:hover:not(.active) {
+    background-color: #444444;
+}
+
+/* aktiivisen sivun v채ri */
+.active {
+    background-color: #c0c0c0;
+}
+
+.tervetuloa {
+    text-align: center;
+    font-size: 40px;
+}
+
+.etusivuteksti {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* class attribute, jolle annettu arvoksi header viitataan .header*/
+.etusivukuva {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("banneri.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 200px 100px 200px 100px;
+    margin: 0px;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+    font-size: 19px;
+
+}
+
+/* kuvan div morecontent + img */
+
+section img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0px 0px 0px;
+
+}
+
+.row {
+    width: 90%;
+    margin: auto;
+    font-size: 19px;
+}
+
+.column {
+    text-align: center;
+}
+
+.sposti {
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+}
+.content {
+    button {
+        background-color: #ffffff;
+        border-radius: 10px;
+        border-color: black;
+        font-size: 22px;
+        padding: 10px 18px;
+        text-align: center;
+        display: flex;
+        margin: auto;
+    }
+}
+
+.content {    
+    padding: 40px 0px 40px 0px;
+
+    input {
+        background-color: white;
+        width: 50%;
+        margin-left: 12%;
+        font-size: 20px;
+        padding: 16px 16px;
+        border-radius: 10px;
+        border-color: black;
+        margin-bottom: 20px;
+        font-family: Oswald;
+    }
+}
+    .content {
+        textarea {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 25px;
+        }
+    }
+    h1 {
+        text-align:center;
+    }
+    footer {
+        text-align:center;
+        position: bottom ;
+        
+    }
+
+   .profiilikuva {
+    width: 300px;
+   }
